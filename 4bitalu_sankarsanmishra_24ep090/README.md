@@ -6,7 +6,9 @@ ELECTRONICS PROJECT REPORT
 
 
 
-Name: Sankarsan Mishra 
+Name: Sankarsan Mishra
+ 
+Senior Supervisor: Harshbir Singh
 
 RollNo.: 24/EP/090
 
