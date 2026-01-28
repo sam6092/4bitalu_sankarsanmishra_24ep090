@@ -1,9 +1,48 @@
 # Semicon Society Official Work
 
-For members only-
-1. To upload new projects, fork the repository.
-2. Create a new folder and upload your project there. Only change an existing folder if you made that folder.
-3. Each folder should have name as `ProjectName_MemberName_RollNo`. Roll No. should be in the following format `2X(Branch)(RollNo)`, for example `23EE266`.
-4. Each folder should have a `README.md` file containing info on the project, name of member, and name of senior under which the project was supervised.
-5. Once all the required changes have been made, submit a Pull Request on the official repository.
-6. After evaluation, your pull request will be accepted or denied.
+SEMICON
+ELECTRONICS PROJECT REPORT
+
+
+
+
+Name: Sankarsan Mishra 
+
+RollNo.: 24/EP/090
+
+## Project Title: Designing and simulating a 4-bit ALU
+
+
+### Project Description:
+#### Aim Of The Project:
+ This project was made to understand the design and verify the functioning of a 4-bit Arithmetic Logic Unit(ALU) using behavioral verilog. ALU is the basic unit of a CPU which performs arithmetic logical operations.
+
+
+#### Working Principle:
+ The ALU operates as a combinational logic circuit where the output is determined immediately by the current state of the inputs.
+
+Inputs: The module accepts two 4-bit binary numbers: A & B
+Control 
+
+Logic: A 3-bit ‘Op’ input acts as a control signal
+
+Operation Execution: Using a Case Statement, the ALU selects the specific operation to perform based on the Op. These include AND, OR and other bitwise operators.
+
+Output: The result is displayed as a 4-bit output, along with a Carry flag to indicate if an arithmetic operation exceeded the 4-bits.
+
+Verification: As no physical hardware is used, a Verilog Testbench is created to operate the design and process the inputs, and the results are verified by analyzing the digital waveforms in the successive timing diagram.
+
+### Learning Outcomes: 
+Combinational Logic: Learned about the functioning of combinational logic families and circuits made of bitwise operators.
+
+Verilog Syntax: Expertise in using ‘always’ blocks and ‘case statements for hardware code requirement.
+CAD proficiency: Learned to use and understand the working of Xilinx Vivado IDE 
+
+
+### Tools Used: 
+- Verilog HDL
+- Xilinx Vivado 2022.2
+
+### MEMBER: Sankarsan Mishra
+
+
